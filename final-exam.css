@@ -9,16 +9,48 @@ body{
   padding: 15px;
 overflow: auto; /*clearfix hack*/
 
+
+}
+.container img{
+  max-width: 66%;
+
 }
 @media (min-width: 650px){
 .left-column{
   width: 66%;
   float: left;
+
 }
 .right-column{
   width:33%;
   float: left;
+  margin-top: 0px;
+  font-size: 24pt;
+  font-style: italic;
 }
 *{
   box-sizing: border-box;
+}
+a {
+  color: red;
+}
+h3{
+  font-weight: lighter;
+  margin: 2px;
+  font-family: Georgia;
+}
+h2{
+  margin-top: 0px;
+  font-size: 24pt;
+  font-style: italic;
+  font-family: Georgia;
+}
+
+h1{
+  font-family: Georgia;
+}
+.source{
+  border-bottom: 5px solid black;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
 }
